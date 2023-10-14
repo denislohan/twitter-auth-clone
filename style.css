@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* :root {
+    --scree-height: 600;
+} */
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    width: 50.9vw;
+    height: 100vh;
+    margin: 0 auto 0 auto;
+}
+
+.twitter-logo {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+h1.title {
+    color: #000;
+    margin-top: 2.6875rem;
+    margin-bottom: 0;
+    line-height: normal;
+    font-size: 1.9375rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.secondary-btn {
+    width: 100%;
+    padding-top: 0.6875rem;
+    padding-bottom: 0.625rem;
+    text-align: center;
+    border-radius: 22px;
+    border: 1px solid #CBD1D3;
+    background: #FFF;
+}
+
+
+/* Twitter Button */
+
+.secondary-btn#twitter {
+    background: url("images/google-btn.png") no-repeat 15% center;
+    background-size: 1.375rem auto;
+    margin-top: 1.6875rem;
+}
+
+.secondary-btn#twitter a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Apple Button */
+
+.secondary-btn#apple {
+    background: url("images/Apple\ Logo.png") no-repeat 22.9% center;
+    background-size: 1.375rem auto;
+    margin-top: 1.6875rem;
+}
+
+.secondary-btn#apple a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.75rem;
+    align-items: center;
+}
+
+.or .bar {
+    flex: auto;
+    height: 1px;
+    border: none;
+    background: #CBD1D3;
+}
+
+.or span {
+    padding: 0px 0.8rem;
+}
+
+
+/* Form */
+
+form {
+    margin-top: 0.9375rem;
+}
+
+form input {
+    width: 100%;
+    padding: 1.125rem 1.065rem 1.065rem 0.5rem;
+    /* margin-top: 0.9375rem; */
+    color: #868D8F;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #CBD1D3;
+    background: #FFF;
+}
+
+.primary-btn {
+    background-color: #000;
+    color: #FFF;
+    margin-top: 1.5rem;
+    padding: 0.5625rem 0 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 80px;
+}
+
+.secondary-btn#senha {
+    margin-top: 1.5rem;
+}
+
+.secondary-btn#senha a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* Register */
+
+.register {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.register p {
+    display: inline;
+    color: #868D8F;
+    font-weight: 400;
+}
+
+.register a {
+    text-decoration: none;
+    color: #37A6F2;
+}
+
+@media(max-width: 570px) {
+    .secondary-btn#apple {
+        background: url("images/Apple\ Logo.png") no-repeat center center;
+    }
+    .secondary-btn#apple a {
+        line-height: 0;
+        font-size: 0;
+    }
+    .secondary-btn#twitter {
+        background: url("images/google-btn.png") no-repeat center center;
+    }
+    .secondary-btn#twitter a {
+        line-height: 0;
+        font-size: 0;
+    }
+}
