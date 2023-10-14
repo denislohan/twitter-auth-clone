@@ -26,6 +26,7 @@ body {
     margin-top: 0.75rem;
     margin-bottom: 0;
     line-height: 0;
+    align-self: center;
 }
 
 h1.title {
@@ -140,12 +141,15 @@ form input {
 }
 
 .secondary-btn#senha a {
+    display: inline-block;
     text-decoration: none;
     color: #000;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    width: 100%;
+    text-overflow: clip;
 }
 
 
