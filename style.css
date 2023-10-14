@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
 body {
     font-family: "Nunito Sans", sans-serif;
+    --border-color: #CBD1D3;
 }
 
 * {
@@ -47,7 +48,7 @@ h1.title {
     padding-bottom: 0.625rem;
     text-align: center;
     border-radius: 22px;
-    border: 1px solid #CBD1D3;
+    border: 1px solid var(--border-color);
     background: #FFF;
 }
 
@@ -187,5 +188,21 @@ form input {
     .secondary-btn#twitter a {
         line-height: 0;
         font-size: 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    #wrapper {
+        width: 40vw;
+    }
+}
+
+@media(min-width:993px) {
+    body {
+        background: url(images/Best\ crystal\ clear\ skyblue\ desktop\ wallpapers\ background\ collection.jpg);
+        --border-color: black;
+    }
+    #wrapper {
+        width: 30vw;
     }
 }
